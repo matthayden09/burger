@@ -1,0 +1,5 @@
+INSERT INTO burgers (burger_name) VALUES ("THE CLASSIC BURGER");
+INSERT INTO burgers (burger_name) VALUES ("THE SUNRISE BURGER");
+INSERT INTO burgers (burger_name) VALUES ("SOUTH OF THE BORDER BURGER");
+INSERT INTO burgers (burger_name) VALUES ("MATT'S SURF AND TURF BURGER");
+INSERT INTO burgers (burger_name) VALUES ("THE DOUBLE DOWN BURGER");
