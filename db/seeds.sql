@@ -1,5 +1,5 @@
-INSERT INTO burgers (burger_name) VALUES ("THE CLASSIC BURGER");
-INSERT INTO burgers (burger_name) VALUES ("THE SUNRISE BURGER");
-INSERT INTO burgers (burger_name) VALUES ("SOUTH OF THE BORDER BURGER");
-INSERT INTO burgers (burger_name) VALUES ("MATT'S SURF AND TURF BURGER");
-INSERT INTO burgers (burger_name) VALUES ("THE DOUBLE DOWN BURGER");
+INSERT INTO burgers (burger_name, devoured) VALUES ("THE CLASSIC BURGER", false);
+INSERT INTO burgers (burger_name, devoured) VALUES ("THE SUNRISE BURGER", true);
+INSERT INTO burgers (burger_name, devoured) VALUES ("SOUTH OF THE BORDER BURGER", true);
+INSERT INTO burgers (burger_name, devoured) VALUES ("MATT'S SURF AND TURF BURGER", true);
+INSERT INTO burgers (burger_name, devoured) VALUES ("THE DOUBLE DOWN BURGER", false);
