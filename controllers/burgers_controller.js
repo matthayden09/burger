@@ -6,7 +6,7 @@ const burger = require("../models/burger.js");
 
 router.get("/", function (req, res) {
   burger.selectAll(function (data) {
-    const hbsObject = {
+    var hbsObject = {
       burgers: data
     };
     console.log(hbsObject);
@@ -15,14 +15,14 @@ router.get("/", function (req, res) {
 });
 
 router.post("/api/burgers", function (req, res) {
-  burger.insertOne(["name", "devoured"], [req.body.name, req.body.devoured], function (result) {
+  burger.insertOne(["burger_name", "devoured"], [req.body.burger_name, 0], function (result) {
     // Send back the ID of the new quote
     res.json({ id: result.insertId });
   });
 });
 
 router.put("/api/burgers/:id", function (req, res) {
-  const condition = "id = " + req.params.id;
+  var condition = "id = " + req.params.id;
 
   console.log("condition", condition);
 
@@ -34,12 +34,14 @@ router.put("/api/burgers/:id", function (req, res) {
     function (result) {
       if (result.changedRows === 0) {
 
-        return res.status(404).end();
+        return res.status(500).end();
       }
       res.status(200).end();
 
     }
   );
 });
+
+// function to reset burgers to waiting list
 
 module.exports = router;
