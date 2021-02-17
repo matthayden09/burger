@@ -20,7 +20,7 @@
 ## Test
     node server.js
 ## Deployed
-    https://stormy-hollows-37273.herokuapp.com/
+    (https://stormy-hollows-37273.herokuapp.com/)
 ## License
     ISC License
 
