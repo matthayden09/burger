@@ -21,7 +21,7 @@
     node server.js
 ## Deployed
     
-[App is deployed at](https://stormy-hollows-37273.herokuapp.com/)
+[Click here to visit the app](https://stormy-hollows-37273.herokuapp.com/)
 ## License
     ISC License
 
