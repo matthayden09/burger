@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-image: url("https://wallpaperaccess.com/full/1306126.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-color: rgb(255, 173, 73);
+}
+
+.container {
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    opacity: 90%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.btn-success {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-warning {
+    margin-bottom: 4px;
+}
+
+form {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
